@@ -14,6 +14,6 @@ public class WorkingDog extends Dog implements Worker
       speak();
       System.out.println("I am a dog who works");
       System.out.println("I have " + hoursOfTraining +
-         " hours of professional training!");
+              " hours of professional training!");
    }
 }

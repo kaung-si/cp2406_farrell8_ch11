@@ -8,12 +8,12 @@ public class DemoWorkingDogs
       aSeeingEyeDog.setName("Sophie, the German Shepherd");
       aSheepHerder.setHoursOfTraining(40);
       aSeeingEyeDog.setHoursOfTraining(300);
-     
+
       System.out.println(aSheepHerder.getName() + " says ");
       aSheepHerder.speak();
-      aSheepHerder.work(); 
+      aSheepHerder.work();
       System.out.println(); // outputs a blank line for readability
-     
+
       System.out.println(aSeeingEyeDog.getName() + " says ");
       aSeeingEyeDog.speak();
       aSeeingEyeDog.work();

@@ -11,16 +11,16 @@ public class BankAccount
    public String toString()
    {
       String info = "BankAccount acctNum = " + acctNum +
-        "   Balance = $" + balance;
+              "   Balance = $" + balance;
       return info;
    }
    public boolean equals(BankAccount secondAcct)
    {
       boolean result;
       if(acctNum == secondAcct.acctNum && balance == secondAcct.balance)
-        result = true;
+         result = true;
       else
-        result = false;
+         result = false;
       return result;
    }
 }

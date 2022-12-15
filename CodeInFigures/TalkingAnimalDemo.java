@@ -13,9 +13,9 @@ public class TalkingAnimalDemo
    {
       System.out.println("Come one. Come all.");
       System.out.println
-         ("See the amazing talking animal!");
+              ("See the amazing talking animal!");
       System.out.println(animal.getName() +
-         " says");
+              " says");
       animal.speak();
       System.out.println("***************");
    }
